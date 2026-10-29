@@ -1,4 +1,4 @@
-param webAppName string // = uniqueString(resourceGroup().id) // unique String gets created from az cli instructions
+param webAppName string = devops-webapp-westus2-66767144 // = uniqueString(resourceGroup().id) // unique String gets created from az cli instructions
 param sku string = 'S1' // The SKU of App Service Plan
 param location string = resourceGroup().location
 
